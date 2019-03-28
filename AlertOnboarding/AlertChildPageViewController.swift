@@ -52,8 +52,10 @@ extension AlertChildPageViewController {
         image.contentMode = .scaleToFill
 
         labelMainTitle.font = UIFont.systemFont(ofSize: 17, weight: .bold)
+        labelMainTitle.textAlignment = .center
         labelDescription.font = UIFont.systemFont(ofSize: 13)
         labelDescription.numberOfLines = 0
+        labelDescription.textAlignment = .center
 
         addSubviews()
         addConstraints()

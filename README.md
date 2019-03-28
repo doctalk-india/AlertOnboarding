@@ -18,9 +18,9 @@ This AlertOnboarding was inspired by [this amazing dribbble](https://dribbble.co
 </p>
 
 ## INSTALLATION
-####COCOAPODS
+#### Carthage
 ```
-pod 'AlertOnboarding'
+github 'doctalk-india/AlertOnboarding'
 ```
 
 
@@ -98,18 +98,16 @@ func alertOnboardingNext(nextStep: Int) {
 
 ```
 
-## FEATURES
-- [x] Multi-Device Full Support
-- [x] Rotation Support
-- [x] Swift 3 Support
-- [x] Fully customisable
-- [x] Tracking Events
-
 ## Version
-2.0
+3.0
 
-## Author
+## Original Author
 Philippe BOISNEY (phil.boisney(@)gmail.com)
+
+## Migrated and Maintained by
+<div>
+   <img src="https://getpulse.care/img/logo-light.svg">
+</div>
 
 ## Design
 [Sasha Gorosh](https://dribbble.com/SashaGorosh)

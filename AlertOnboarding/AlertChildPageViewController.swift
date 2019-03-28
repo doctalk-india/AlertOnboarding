@@ -43,6 +43,12 @@ class AlertChildPageViewController: UIViewController {
 extension AlertChildPageViewController {
 
     func setupUI() {
+        image.translatesAutoresizingMaskIntoConstraints = false
+        labelMainTitle.translatesAutoresizingMaskIntoConstraints = false
+        labelDescription.translatesAutoresizingMaskIntoConstraints = false
+        imageContainerView.translatesAutoresizingMaskIntoConstraints = false
+        textContainerView.translatesAutoresizingMaskIntoConstraints = false
+
         image.contentMode = .scaleToFill
 
         labelMainTitle.font = UIFont.systemFont(ofSize: 17, weight: .bold)
@@ -81,11 +87,10 @@ extension AlertChildPageViewController {
 
         labelMainTitle.leftAnchor.constraint(equalTo: textContainerView.leftAnchor, constant: 10).isActive = true
         labelMainTitle.topAnchor.constraint(equalTo: textContainerView.topAnchor, constant: 10).isActive = true
-        labelMainTitle.rightAnchor.constraint(equalTo: textContainerView.rightAnchor, constant: 10).isActive = true
+        labelMainTitle.rightAnchor.constraint(equalTo: textContainerView.rightAnchor, constant: -10).isActive = true
 
         labelDescription.topAnchor.constraint(equalTo: labelMainTitle.bottomAnchor, constant: 10).isActive = true
         labelDescription.leftAnchor.constraint(equalTo: textContainerView.leftAnchor, constant: 10).isActive = true
-        labelDescription.rightAnchor.constraint(equalTo: textContainerView.rightAnchor, constant: 10).isActive = true
-        labelDescription.centerXAnchor.constraint(equalTo: textContainerView.centerXAnchor).isActive = true
+        labelDescription.rightAnchor.constraint(equalTo: textContainerView.rightAnchor, constant: -10).isActive = true
     }
 }

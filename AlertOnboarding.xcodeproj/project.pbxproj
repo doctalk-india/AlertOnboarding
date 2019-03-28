@@ -7,33 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		37845A691D994CBA009B3734 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37845A681D994CBA009B3734 /* AppDelegate.swift */; };
-		37845A6B1D994CBA009B3734 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37845A6A1D994CBA009B3734 /* ViewController.swift */; };
-		37845A6E1D994CBA009B3734 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37845A6C1D994CBA009B3734 /* Main.storyboard */; };
-		37845A701D994CBA009B3734 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37845A6F1D994CBA009B3734 /* Assets.xcassets */; };
-		37845A731D994CBA009B3734 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37845A711D994CBA009B3734 /* LaunchScreen.storyboard */; };
-		37845A7C1D994D65009B3734 /* AlertOnboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37845A7B1D994D65009B3734 /* AlertOnboarding.swift */; };
-		37845A7E1D994D87009B3734 /* AlertChildPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37845A7D1D994D87009B3734 /* AlertChildPageViewController.swift */; };
-		37845A801D994DA6009B3734 /* AlertPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37845A7F1D994DA6009B3734 /* AlertPageViewController.swift */; };
-		37845A821D994DE6009B3734 /* AlertChildPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37845A811D994DE6009B3734 /* AlertChildPageViewController.xib */; };
+		7D1D638B224CC47A001CF0DF /* AlertOnboardingFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D1D6389224CC47A001CF0DF /* AlertOnboardingFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D1D6394224CC48E001CF0DF /* AlertOnboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37845A7B1D994D65009B3734 /* AlertOnboarding.swift */; };
+		7D1D6395224CC491001CF0DF /* AlertChildPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37845A7D1D994D87009B3734 /* AlertChildPageViewController.swift */; };
+		7D1D6396224CC494001CF0DF /* AlertPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37845A7F1D994DA6009B3734 /* AlertPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		37845A651D994CBA009B3734 /* AlertOnboarding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlertOnboarding.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		37845A681D994CBA009B3734 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		37845A6A1D994CBA009B3734 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		37845A6D1D994CBA009B3734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		37845A6F1D994CBA009B3734 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		37845A721D994CBA009B3734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		37845A741D994CBA009B3734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37845A7B1D994D65009B3734 /* AlertOnboarding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertOnboarding.swift; sourceTree = "<group>"; };
 		37845A7D1D994D87009B3734 /* AlertChildPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertChildPageViewController.swift; sourceTree = "<group>"; };
 		37845A7F1D994DA6009B3734 /* AlertPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertPageViewController.swift; sourceTree = "<group>"; };
-		37845A811D994DE6009B3734 /* AlertChildPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertChildPageViewController.xib; sourceTree = "<group>"; };
+		7D1D6387224CC47A001CF0DF /* AlertOnboarding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlertOnboarding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D1D6389224CC47A001CF0DF /* AlertOnboardingFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertOnboardingFramework.h; sourceTree = "<group>"; };
+		7D1D638A224CC47A001CF0DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		37845A621D994CBA009B3734 /* Frameworks */ = {
+		7D1D6384224CC47A001CF0DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -46,7 +36,7 @@
 		37845A5C1D994CBA009B3734 = {
 			isa = PBXGroup;
 			children = (
-				37845A671D994CBA009B3734 /* AlertOnboarding */,
+				7D1D6388224CC47A001CF0DF /* AlertOnboarding */,
 				37845A661D994CBA009B3734 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,55 +44,54 @@
 		37845A661D994CBA009B3734 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				37845A651D994CBA009B3734 /* AlertOnboarding.app */,
+				7D1D6387224CC47A001CF0DF /* AlertOnboarding.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		37845A671D994CBA009B3734 /* AlertOnboarding */ = {
-			isa = PBXGroup;
-			children = (
-				37845A7A1D994D51009B3734 /* Alert */,
-				37845A681D994CBA009B3734 /* AppDelegate.swift */,
-				37845A6A1D994CBA009B3734 /* ViewController.swift */,
-				37845A6C1D994CBA009B3734 /* Main.storyboard */,
-				37845A6F1D994CBA009B3734 /* Assets.xcassets */,
-				37845A711D994CBA009B3734 /* LaunchScreen.storyboard */,
-				37845A741D994CBA009B3734 /* Info.plist */,
-				37845A811D994DE6009B3734 /* AlertChildPageViewController.xib */,
-			);
-			path = AlertOnboarding;
-			sourceTree = "<group>";
-		};
-		37845A7A1D994D51009B3734 /* Alert */ = {
+		7D1D6388224CC47A001CF0DF /* AlertOnboarding */ = {
 			isa = PBXGroup;
 			children = (
 				37845A7B1D994D65009B3734 /* AlertOnboarding.swift */,
 				37845A7D1D994D87009B3734 /* AlertChildPageViewController.swift */,
 				37845A7F1D994DA6009B3734 /* AlertPageViewController.swift */,
+				7D1D6389224CC47A001CF0DF /* AlertOnboardingFramework.h */,
+				7D1D638A224CC47A001CF0DF /* Info.plist */,
 			);
-			name = Alert;
+			path = AlertOnboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		7D1D6382224CC47A001CF0DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1D638B224CC47A001CF0DF /* AlertOnboardingFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		37845A641D994CBA009B3734 /* AlertOnboarding */ = {
+		7D1D6386224CC47A001CF0DF /* AlertOnboarding */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37845A771D994CBA009B3734 /* Build configuration list for PBXNativeTarget "AlertOnboarding" */;
+			buildConfigurationList = 7D1D6390224CC47A001CF0DF /* Build configuration list for PBXNativeTarget "AlertOnboarding" */;
 			buildPhases = (
-				37845A611D994CBA009B3734 /* Sources */,
-				37845A621D994CBA009B3734 /* Frameworks */,
-				37845A631D994CBA009B3734 /* Resources */,
+				7D1D6382224CC47A001CF0DF /* Headers */,
+				7D1D6383224CC47A001CF0DF /* Sources */,
+				7D1D6384224CC47A001CF0DF /* Frameworks */,
+				7D1D6385224CC47A001CF0DF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = AlertOnboarding;
-			productName = AlertOnboarding;
-			productReference = 37845A651D994CBA009B3734 /* AlertOnboarding.app */;
-			productType = "com.apple.product-type.application";
+			productName = AlertOnboardingFramework;
+			productReference = 7D1D6387224CC47A001CF0DF /* AlertOnboarding.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -114,9 +103,8 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = CookMinute;
 				TargetAttributes = {
-					37845A641D994CBA009B3734 = {
-						CreatedOnToolsVersion = 8.0;
-						LastSwiftMigration = 1010;
+					7D1D6386224CC47A001CF0DF = {
+						CreatedOnToolsVersion = 10.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -134,58 +122,33 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				37845A641D994CBA009B3734 /* AlertOnboarding */,
+				7D1D6386224CC47A001CF0DF /* AlertOnboarding */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		37845A631D994CBA009B3734 /* Resources */ = {
+		7D1D6385224CC47A001CF0DF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37845A731D994CBA009B3734 /* LaunchScreen.storyboard in Resources */,
-				37845A701D994CBA009B3734 /* Assets.xcassets in Resources */,
-				37845A821D994DE6009B3734 /* AlertChildPageViewController.xib in Resources */,
-				37845A6E1D994CBA009B3734 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		37845A611D994CBA009B3734 /* Sources */ = {
+		7D1D6383224CC47A001CF0DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37845A801D994DA6009B3734 /* AlertPageViewController.swift in Sources */,
-				37845A6B1D994CBA009B3734 /* ViewController.swift in Sources */,
-				37845A7E1D994D87009B3734 /* AlertChildPageViewController.swift in Sources */,
-				37845A7C1D994D65009B3734 /* AlertOnboarding.swift in Sources */,
-				37845A691D994CBA009B3734 /* AppDelegate.swift in Sources */,
+				7D1D6394224CC48E001CF0DF /* AlertOnboarding.swift in Sources */,
+				7D1D6395224CC491001CF0DF /* AlertChildPageViewController.swift in Sources */,
+				7D1D6396224CC494001CF0DF /* AlertPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		37845A6C1D994CBA009B3734 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				37845A6D1D994CBA009B3734 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		37845A711D994CBA009B3734 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				37845A721D994CBA009B3734 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		37845A751D994CBA009B3734 /* Debug */ = {
@@ -301,29 +264,64 @@
 			};
 			name = Release;
 		};
-		37845A781D994CBA009B3734 /* Debug */ = {
+		7D1D6391224CC47A001CF0DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = AlertOnboarding/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cookminute.AlertOnboarding;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = care.pulse.AlertOnboarding;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		37845A791D994CBA009B3734 /* Release */ = {
+		7D1D6392224CC47A001CF0DF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = AlertOnboarding/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cookminute.AlertOnboarding;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = care.pulse.AlertOnboarding;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -339,11 +337,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37845A771D994CBA009B3734 /* Build configuration list for PBXNativeTarget "AlertOnboarding" */ = {
+		7D1D6390224CC47A001CF0DF /* Build configuration list for PBXNativeTarget "AlertOnboarding" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				37845A781D994CBA009B3734 /* Debug */,
-				37845A791D994CBA009B3734 /* Release */,
+				7D1D6391224CC47A001CF0DF /* Debug */,
+				7D1D6392224CC47A001CF0DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
